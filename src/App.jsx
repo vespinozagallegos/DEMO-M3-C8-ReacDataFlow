@@ -1,8 +1,14 @@
 import './App.css'
-import TestComponent from './TestComponent'
+import CardList from './CardList';
+
 
 function App() {
-  return <TestComponent/>
-}
+  return (
+    <>
+      <h1>Mi Primera App</h1>
+      <CardList/>
+    </>
+  );
+};
 
-export default App
+export default App;
