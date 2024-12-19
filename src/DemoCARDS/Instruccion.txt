@@ -1,0 +1,1 @@
+Mover estos archivos fuera de esta carpeta para que funcione el renderizado
