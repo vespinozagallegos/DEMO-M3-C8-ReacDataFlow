@@ -1,22 +1,19 @@
 import './App.css'
-import Login from './Login';
-import Register from './Register';
+import CardList from './CardList';
 
 function App() {
-  const isRegistered = true;
+  let counter = 0;
+  console.log(counter)
 
-    return (
+  return (
+    <>
+      <h1>Mi Primera App</h1>
+      <CardList/>
 
-      <>
-
-        <h1>Bienvenidos a mi Primera App</h1>
-        {/* ? corresponde el if     : corresponde al else */}
-        {isRegistered ? <> <h2>Ingresa tus datos para entrar.</h2><Login/> </>  :   <> <h2>Completa los siguientes datos.</h2><Register/> </>}
-
-      </>
-
-
-    );
+      <p>Clicks: {counter}</p>
+      <button onClick={() => counter++}>Contador de Clicks</button>
+    </>
+  );
 };
 
 export default App;
