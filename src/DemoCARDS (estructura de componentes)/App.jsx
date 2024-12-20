@@ -2,16 +2,17 @@ import './App.css'
 import CardList from './CardList';
 
 function App() {
-  let counter = 0;
-  console.log(counter)
+  const counter = 0;
 
   return (
     <>
-      <h1>Mi Primera App</h1>
+      <h1 className='title'>Mi Primera App</h1>
+      <h2>Contador: {counter}</h2>
+      <button>Contador de clicks</button>
       <CardList/>
-
+{/* 
       <p>Clicks: {counter}</p>
-      <button onClick={() => counter++}>Contador de Clicks</button>
+      <button onClick={() => counter++}>Contador de Clicks</button> */}
     </>
   );
 };
