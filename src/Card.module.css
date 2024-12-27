@@ -1,0 +1,14 @@
+/* A pesar de llevar el mismo nombre "container" en CardList, no se van a pisar */
+/* AL TRABAJAR CON LEGACY SE PISAN */
+.container {
+    display: flex;      /* Abre la posibilidad de ubicar libremente los elementos   */
+    flex-direction: column;     /* Cada de una de las Tarjetas será una columna */
+    align-items: center;        /* centra los elementos del contenedor en VERTICAL */
+    margin: 10px;
+    justify-content: center;  /* centra de manera horizontal */
+    border: 1px solid darkgreen;
+    border-radius: 16px;
+    background-color: darkkhaki ; /* darkseagreen   darkkhaki */
+
+
+}
