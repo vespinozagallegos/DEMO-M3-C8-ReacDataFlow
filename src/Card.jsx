@@ -1,10 +1,11 @@
 const Card = () => {
     return (
-        <>
-            <h1 className="titleCard">Tarjeta</h1>
+        //Aqui debe ir un div, tenia fragment pero se desordenaba el contenido de la tarjeta al duplicarla en CardList
+        <div>
+            <h1>Tarjeta</h1>
             <h3>Nombre: Víctor</h3>
             <p>Email: victor@mail.cl</p>
-        </>
+        </div>
     );
 }
 

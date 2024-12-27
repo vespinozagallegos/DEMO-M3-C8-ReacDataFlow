@@ -1,8 +1,9 @@
 import Card from "./Card";
+import styles from './CardList.module.css'
 
 const CardList = () => {
     return (
-        <div>
+        <div className={styles.container}>
             <Card/>
             <Card/>
             <Card/>

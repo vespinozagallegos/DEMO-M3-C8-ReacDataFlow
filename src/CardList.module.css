@@ -1,0 +1,8 @@
+.container {            /* vw = viewport widht // vh = viewport height */
+    width: 85vw;
+    margin: 0;
+    display: grid;                              /* esto divide la pantalla en 12 columnas iguales */
+    grid-template-columns: 1fr 1fr 1fr 1fr;     /* Aqui le indicamos el tamaño de separacion entre cada columna, que es 1fr = 1 columna */
+    grid-gap: 20px;                 /* este gap genera un espaciado del contenedor */
+
+}
