@@ -1,0 +1,25 @@
+/* EL NOMBRE DE ESTE ARCHIVO DEBE SER IGUAL AL DEL COMPONENTE (App.jsx), App.module.css */
+/* Para aplicar estos estilos en (App.jsx) se cita como objeto, luego de classname=, dos llaves {} y dentro, styles seguido de la clase ==> <h1 className={styles.title}>Mi Primera App</h1> */
+/* No se debe exportar aquí pero en el componente App.jsx se importa este modulo COMPLETO (ver comentario en App.jsx) */
+body {
+    margin: 0;
+  
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  
+    background-color: beige ;
+  
+  }
+      
+  .title {
+    color:darkgreen;
+  }
+
+  .subtitle {
+    color: brown;
+  }
+  /* .titleCard {
+    color: green;
+  } */

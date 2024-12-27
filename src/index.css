@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
 
   font-family: "Montserrat", serif;
@@ -8,18 +8,18 @@ body {
 
   background-color: beige ;
 
-  /* background: linear-gradient(
+} */
+  /* background: linear-gradient(       ESTO VA DENTRO DEL BODY
     to left,
     rgb(163, 163, 47),  
     beige,
     rgb(163, 163, 47) 
-  );*/
-}
-
-.title {
+    );*/
+    
+/* .title {
   color:darkgreen;
 }
 
 .titleCard {
   color: green;
-}
+} */
