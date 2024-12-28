@@ -7,7 +7,7 @@ export const CustomButton = styled.button`
     // 1rem = 8px
     font-size: 1.5 rem;
     // separación externa del botón
-    margin: 1rem;
+    margin: 1rem 1rem 2rem;
     // separación interna del botón 1°Top 2°Left 3°Down 4°Rigth (Contrarreloj) // si hay solo dos sería 1°Top-Down 2°Left-Rigth // si hay 1 sería para todo
     padding: 0.5rem 1rem;
     //redondeo de vértices
