@@ -11,7 +11,7 @@ function App() {
   //el return es un componente, mezcla js con html (etiquetas, que pueden tener o no lógica)
   return (
     <>
-      <h1 className={styles.title}>Mi Primera App</h1>
+      <h1 className={styles.title}>Mi Primera Demo con React</h1>
       <h2 className={styles.subtitle}>Contador de Clicks: {count}</h2>
       {/* El componente estilizado CustomButton --> reemplaza la etiqueta <button></button>    CustomButton es un elem.HTML */}
       <CustomButton onClick={() => setCount((count) => count + 1)}>¡ Clickea AQUÍ !</CustomButton>
