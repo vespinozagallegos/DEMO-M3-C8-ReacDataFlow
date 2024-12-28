@@ -6,7 +6,9 @@ import { CustomButton } from './CustomButton';  // Se importa el Componente esti
 import { useState } from 'react';
 
 function App() {
+  //esta es la logica
   const [count, setCount] = useState(0)
+  //el return es un componente, mezcla js con html (etiquetas, que pueden tener o no lógica)
   return (
     <>
       <h1 className={styles.title}>Mi Primera App</h1>
