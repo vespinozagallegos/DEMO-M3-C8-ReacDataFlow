@@ -1,0 +1,12 @@
+Aqui se estan aplicando estilos con:
+
+LEGACY
+App.css
+
+MODULES
+App.module.css
+Card.module.css
+CardList.module.css
+
+STYLED-COMPONENTS
+CustomButton.js
