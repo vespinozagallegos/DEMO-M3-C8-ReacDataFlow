@@ -17,6 +17,15 @@ function Demo2EstadoConKey() {
         setCharacters([...characters, {id: 3, name: "Hermione Granger", house: "Gryffindor"}])
     }
 
+    //Funcion para el segundo botón
+    //*MODIFICAR NOMBRE (Hary Poter)
+    const modifyName = () => {
+        characters[0].name = "Harry Potter";
+        //*se le indica que actualice EL ESTADO con los valores que ya tenia
+        // hacieno una copia de characters
+        setCharacters([...characters]);
+    }
+
     //usamos método map para renderizar los elementos del array, uno por uno
     //va con llaves {} para usar código JS
 
@@ -38,6 +47,7 @@ function Demo2EstadoConKey() {
             }
 
             <button onClick={addCharacter}>Agregar Personaje</button>
+            <button onClick={modifyName}>Corregir Nombre</button>
         </>
     )
 }
