@@ -11,6 +11,11 @@ function Demo2EstadoConKey() {
         {id:2, name: "Draco Malfoy", house: "Slytherin"}
     ]);
     
+    //* Función para el botón. Actualiza el estado con el personaje que quiero agregar
+    const addCharacter = () => {
+        setCharacters([{id: 3, name: "Hermione Granger", house: "Gryffindor"}])
+    }
+
     //usamos método map para renderizar los elementos del array, uno por uno
     //va con llaves {} para usar código JS
 
@@ -30,7 +35,8 @@ function Demo2EstadoConKey() {
                     )
                 } )
             }
-            
+
+            <button onClick={addCharacter}>Agregar Personaje</button>
         </>
     )
 }
