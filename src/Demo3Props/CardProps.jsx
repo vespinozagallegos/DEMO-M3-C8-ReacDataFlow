@@ -1,5 +1,8 @@
 const CardProps = (props) => {
     console.log(props);
+    const { name, house } = props;
+    console.log(name, house);
+    
     
     return (
         <div>
