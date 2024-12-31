@@ -2,6 +2,7 @@ import './App.css'
 import styles from '../App.module.css' //Se importa para tener el estilo seteado
 import { useState } from 'react';   // HOOK de React.                                                                                               //Desectructurado porque esta dentro de la dependencia de React que contiene muchas cosas
 console.log(styles);    //para evitar el error cuando no he citado styles
+import CardProps from './CardProps';    //Para que cada personaje se renderice en una tarjeta
 
 function AppProps() {
     //se crea un ESTADO que trabaje los personajes de HP
@@ -40,10 +41,7 @@ function AppProps() {
             {
                 characters.map((character) => {
                     return (
-                        <div    key={character.id}>
-                            <h2>{character.name}</h2>
-                            <h3>{character.house}</h3>
-                        </div>
+                        <CardProps/>
                     )
                 } )
             }
