@@ -1,6 +1,6 @@
-const CardProps = (props) => {
+const CardProps = ({character}) => {
     // console.log(props);
-    const { name, house } = props.character;
+    const { name, house } = character;
     // console.log(name, house);
     
     
