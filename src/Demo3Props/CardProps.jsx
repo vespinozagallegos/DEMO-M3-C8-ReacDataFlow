@@ -1,4 +1,6 @@
-const CardProps = () => {
+const CardProps = (props) => {
+    console.log(props);
+    
     return (
         <div>
             <h2>Nombre</h2>
