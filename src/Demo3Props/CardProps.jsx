@@ -1,8 +1,4 @@
-const CardProps = ({character}) => { //se desestructura el objeto props
-    // console.log(props);
-    const { name, house } = character;
-    // console.log(name, house);
-    
+const CardProps = ({ character: {name, house} }) => { //se desestructura el objeto props y se vuelve a desectructurar dentro, ahorrando lineCode    
     
     return (
         <div>
