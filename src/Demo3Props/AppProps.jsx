@@ -41,7 +41,7 @@ function AppProps() {
             {
                 characters.map((character) => {
                     return (
-                        <CardProps key={character.id} />
+                        <CardProps key={character.id} character={character}/>
                     )
                 } )
             }
