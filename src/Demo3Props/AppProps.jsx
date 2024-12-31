@@ -1,4 +1,4 @@
-import './App.css'
+import '../App.css'
 import styles from '../App.module.css' //Se importa para tener el estilo seteado
 import { useState } from 'react';   // HOOK de React.                                                                                               //Desectructurado porque esta dentro de la dependencia de React que contiene muchas cosas
 console.log(styles);    //para evitar el error cuando no he citado styles
