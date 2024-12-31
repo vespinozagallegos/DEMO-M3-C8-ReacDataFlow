@@ -41,6 +41,7 @@ function AppProps() {
             {
                 characters.map((character) => {
                     return (
+                        // todas las etiquetas character={character} o name="Víctor" por ej, seran propiedades del objeto props que se indica en CardProps
                         <CardProps key={character.id} character={character} name="Víctor"/>
                     )
                 } )
