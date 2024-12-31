@@ -1,4 +1,4 @@
-const CardProps = ({ character: {name, house} }) => { //se desestructura el objeto props y se vuelve a desectructurar dentro, ahorrando lineCode    
+const CardProps = ({ character: {name, house} }) => { //3era FORMA Se desestructura el objeto props y se vuelve a desectructurar dentro, ahorrando lineCode    
     
     return (
         <div>
