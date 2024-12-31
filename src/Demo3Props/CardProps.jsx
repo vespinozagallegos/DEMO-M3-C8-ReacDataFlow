@@ -1,13 +1,13 @@
 const CardProps = (props) => {
-    console.log(props);
+    // console.log(props);
     const { name, house } = props.character;
-    console.log(name, house);
+    // console.log(name, house);
     
     
     return (
         <div>
-            <h2>Nombre</h2>
-            <h3>Casa</h3>
+            <h2>Nombre: {name}</h2>
+            <h3>Casa: {house}</h3>
         </div>
     )
 }
