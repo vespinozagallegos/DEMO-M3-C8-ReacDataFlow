@@ -18,3 +18,6 @@ Y 3 componenten necesitan saber la informacion de este estado que desarrollamos.
 -La info de User no puede ser traspasada a otro User por ejemplo, pq serían hnos.
 -Habría que pasarle el estado de user -> const [updateData, setUpdateData] = useState("Editando...");
 al componente Padre (View) para que sea traspasado a los demas módulos.
+
+FINALMENTE SE RENDERIZAN juntos y cambian a la par considerando que ambos podrian estar en pantallas separadas
+y al estar compartiendo la info se estarian modificando por separado pero a la vez igual.
