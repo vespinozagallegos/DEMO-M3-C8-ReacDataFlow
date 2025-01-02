@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const User = () => {
+const User = ({ handleUserButtonClick }) => {
     //Estado encargado de mostrar si el perfil
     //se está editando o ya se actualizó
     const [updateData, setUpdateData] = useState("Editando...");
@@ -9,6 +9,8 @@ const User = () => {
     const handleButtonClick = () => {
         //actualiza el estado
         setUpdateData("Actualizado!")
+        //Se ejecuta la funcion que se esta desestructurando con un msje.
+        handleUserButtonClick("Se actualizó el perfil")
     }
     
     return (
