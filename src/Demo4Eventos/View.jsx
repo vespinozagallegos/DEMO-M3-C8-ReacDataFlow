@@ -1,6 +1,8 @@
+import User from "./User";
+
 const View = () => {
     return (
-
+        <User/>
     )
 }
 
