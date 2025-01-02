@@ -1,0 +1,3 @@
+En esta demo el CASO DE USO ES:
+-Un usuario esta actualizando su perfil
+-Necesitamos saber si lo está EDITANDO o ya ACTUALIZÓ su perfil.
