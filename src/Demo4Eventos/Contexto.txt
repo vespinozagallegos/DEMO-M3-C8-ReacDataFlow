@@ -1,3 +1,16 @@
 En esta demo el CASO DE USO ES:
 -Un usuario esta actualizando su perfil
 -Necesitamos saber si lo está EDITANDO o ya ACTUALIZÓ su perfil.
+
+Se logró
+Se renderiza User(hijo) en View(Padre)
+En View se crea un funcion con la info
+En View, esta funcion se usa como props donde se está renderizando User
+
+Luego en User se desestructura esta prop y es llamado dentro del manejador de Eventos
+con un mensaje dentro que avisa que el perfil se Actualizó.
+
+Caso SIGUIENTE.
+-Ahora si tuvieramos muchos componentes, 10 por ejemplo
+Y 3 componenten necesitan saber la informacion de este estado que desarrollamos.
+¿Como hacemos? 
