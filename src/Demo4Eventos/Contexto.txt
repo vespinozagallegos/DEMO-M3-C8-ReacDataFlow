@@ -5,12 +5,16 @@ En esta demo el CASO DE USO ES:
 Se logró
 Se renderiza User(hijo) en View(Padre)
 En View se crea un funcion con la info
-En View, esta funcion se usa como props donde se está renderizando User
+En View, esta funcion se usa como props para User, donde se está renderizando User
 
-Luego en User se desestructura esta prop y es llamado dentro del manejador de Eventos
+Luego en  el modulo de User se desestructura esta prop y es llamado dentro del manejador de Eventos de User
 con un mensaje dentro que avisa que el perfil se Actualizó.
 
 Caso SIGUIENTE.
 -Ahora si tuvieramos muchos componentes, 10 por ejemplo
 Y 3 componenten necesitan saber la informacion de este estado que desarrollamos.
-¿Como hacemos? 
+¿Como hacemos?
+
+-La info de User no puede ser traspasada a otro User por ejemplo, pq serían hnos.
+-Habría que pasarle el estado de user -> const [updateData, setUpdateData] = useState("Editando...");
+al componente Padre (View) para que sea traspasado a los demas módulos.
