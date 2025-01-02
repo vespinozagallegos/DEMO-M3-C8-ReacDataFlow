@@ -16,8 +16,8 @@ const ParentComponent = () => {
     }
     return (
         <div>
-            <ComponentA/>
-            <ComponentB/>
+            <ComponentA counter={counter}/>
+            <ComponentB counter={counter}/>
         </div>
     )
 
